@@ -2272,6 +2272,35 @@ button {
 }
 
 
+.portfolio-logo {
+
+    background: #ffffff;
+
+}
+
+
+.portfolio-logo::after {
+
+    border-color: rgba(15,23,42,0.08);
+
+}
+
+
+.portfolio-logo img {
+
+    position: relative;
+    z-index: 2;
+
+    width: auto;
+    max-width: 82%;
+    height: auto;
+    max-height: 180px;
+
+    object-fit: contain;
+
+}
+
+
 /* =========================================================
    PROJECT
 ========================================================= */
